@@ -1,0 +1,95 @@
+body {
+	background-color: #333333;
+	margin: 0;
+	font-family: "Comfortaa";
+
+}
+
+.square {
+	width: 30%;
+	background: yellow;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.1%;
+	border: 3px solid white;
+	border-radius: 7%;
+	transition: background 0.3s;
+	/* add transition to unsupported browsers: */
+	-webkit-transition: background 0.3s;
+	-moz-transition: background 0.3s;
+}
+
+#container {
+	margin: 20px auto;   /* centers: 20 top/bottom, auto sides */
+	max-width: 600px;
+}
+
+h1 {
+	text-align: center;
+	line-height: 1.2;
+	font-weight: normal;
+	color: white;
+	background: #4576a0;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+#colorDisplay {
+	font-size: 200%;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+#secondStripe {
+	background: #4576a0;
+	color: white;
+	height: 30px;
+	margin-top: 500px;
+	text-align: center;
+	font-weight: 700;
+	color: white;
+	letter-spacing: 1px;
+	font-size: inherit;
+	text-transform: uppercase;
+}
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+}
+
+.selected {
+	background: #4576a0;
+	color: white;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: #4576a0;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+
+
+}
+
+button:hover {
+	color: white;
+	background: #4576a0;
+}
+
+/*#meanGuess {
+	font-size: 120%;
+}*/
